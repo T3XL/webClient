@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+}
+
+.form-container {
+  flex: 1;
+  margin-right: 20px;  /* 可以根据需要调整表单之间的间距 */
+}
+
+.form-container form {
+  max-width: 400px;  /* 控制表单的最大宽度 */
+  margin: 0 auto;    /* 让表单水平居中 */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
